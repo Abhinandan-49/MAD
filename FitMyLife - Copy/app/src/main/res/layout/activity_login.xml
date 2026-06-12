@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fitness"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@null"
+        android:layout_marginTop="30dp">
+
+    </ImageView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:id="@+id/et_emailId"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/dgrey"
+        android:textColorHint="@color/dgrey">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:id="@+id/et_password"
+        android:textColor="@color/dgrey"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_Password"
+        android:id="@+id/tv_forgetPassword"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
+        android:layout_gravity="end">
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:id="@+id/bt_login"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black">
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_acc"
+        android:id="@+id/tv_createAccount"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/dgrey"
+        android:textSize="18sp">
+
+    </TextView>
+
+</LinearLayout>

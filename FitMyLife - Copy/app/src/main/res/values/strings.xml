@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FitMyLife</string>
+    <string name="forget_Password">Forget Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="create_acc">create  new account</string>
+    <string name="login">Login</string>
+    <string name="register">register</string>
+    <string name="full_name">full name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_account">Already have  an account</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="submit">Submit</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">stop</string>
+</resources>

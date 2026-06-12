@@ -1,0 +1,17 @@
+# Ignore local.properties in any subdirectory
+**/local.properties
+local.properties
+
+# Ignore google-services.json in any subdirectory
+**/google-services.json
+google-services.json
+
+# Ignore build and IDE files
+**/.gradle/
+**/build/
+**/.idea/
+**/*.iml
+**/.DS_Store
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
